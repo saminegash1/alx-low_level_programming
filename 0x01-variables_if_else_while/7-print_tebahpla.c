@@ -7,20 +7,14 @@
  */
 int main(void)
 {
-char ch;
-for (ch = 'z'; ch >= 'a'; ch--)
-{
+    char ch;
+    for (ch = 'z'; ch >= 'a'; ch--)
+    {
 
-putchar(ch);
-}
-char ch;
-for (ch = 'a'; ch <= 'z'; ch++)
-{
-if (ch != 'q' && ch != 'e')
-{
-putchar(ch);
-}
-} /* this is an ascii code for new line*/
+        putchar(ch);
+    }
 
-return (0);
+    putchar(10); /* this is an ascii code for new line*/
+
+    return (0);
 }
