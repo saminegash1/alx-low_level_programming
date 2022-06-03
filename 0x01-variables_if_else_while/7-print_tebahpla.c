@@ -7,14 +7,15 @@
  */
 int main(void)
 {
-    char ch;
-    for (ch = 'z'; ch >= 'a'; ch--)
-    {
+char ch;
 
-        putchar(ch);
-    }
+for (ch = 'z'; ch >= 'a'; ch--)
+{
 
-    putchar(10); /* this is an ascii code for new line*/
+putchar(ch);
+}
 
-    return (0);
+putchar(10); /* this is an ascii code for new line*/
+
+return (0);
 }
